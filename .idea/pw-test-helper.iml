@@ -5,7 +5,11 @@
       <sourceFolder url="file://$MODULE_DIR$/src" isTestSource="false" packagePrefix="LostKobrakai\TestHelpers" />
       <sourceFolder url="file://$MODULE_DIR$/spec" isTestSource="false" packagePrefix="LostKobrakai\Tests" />
       <sourceFolder url="file://$MODULE_DIR$/dummy" isTestSource="false" packagePrefix="ProcessWire" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/behat/mink" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/behat/mink-zombie-driver" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/composer" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/symfony/css-selector" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/symfony/process" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
@@ -22,10 +26,18 @@
     <orderEntry type="module-library">
       <library name="PHP" type="php">
         <CLASSES>
+          <root url="file://$MODULE_DIR$/vendor/behat/mink" />
+          <root url="file://$MODULE_DIR$/vendor/behat/mink-zombie-driver" />
           <root url="file://$MODULE_DIR$/vendor/composer" />
+          <root url="file://$MODULE_DIR$/vendor/symfony/css-selector" />
+          <root url="file://$MODULE_DIR$/vendor/symfony/process" />
         </CLASSES>
         <SOURCES>
+          <root url="file://$MODULE_DIR$/vendor/behat/mink" />
+          <root url="file://$MODULE_DIR$/vendor/behat/mink-zombie-driver" />
           <root url="file://$MODULE_DIR$/vendor/composer" />
+          <root url="file://$MODULE_DIR$/vendor/symfony/css-selector" />
+          <root url="file://$MODULE_DIR$/vendor/symfony/process" />
         </SOURCES>
       </library>
     </orderEntry>

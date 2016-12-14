@@ -8,7 +8,10 @@
             "email": "benni@kobrakai.de"
         }
     ],
-    "require": {},
+    "require": {
+        "behat/mink": "^1.7",
+        "behat/mink-zombie-driver": "dev-master"
+    },
     "autoload": {
         "psr-4": {
             "LostKobrakai\\TestHelpers\\": "src/"

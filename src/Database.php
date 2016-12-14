@@ -6,6 +6,13 @@ use PDO;
 use ProcessWire\Config;
 use ProcessWire\WireDatabaseBackup;
 
+/**
+ * Class Database
+ *
+ * This does install a site-profile .sql files data in a temporary database used for tests
+ *
+ * @package LostKobrakai\TestHelpers
+ */
 class Database
 {
 	/**
