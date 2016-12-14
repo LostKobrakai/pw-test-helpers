@@ -55,7 +55,7 @@ class Browser
 			'database' => ''
 		], $options);
 
-		return $this->mink;
+		return $this;
 	}
 
 	/**

@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="901e7069-8ccf-4bd4-a766-f70a683d7f99" name="Default" comment="" />
+    <list default="true" id="901e7069-8ccf-4bd4-a766-f70a683d7f99" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Browser.php" afterPath="$PROJECT_DIR$/src/Browser.php" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -21,17 +24,22 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Kahlan.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/Kahlan/Kahlan.php">
+      <file leaf-file-name="Browser.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Browser.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="260">
-              <caret line="15" column="19" lean-forward="false" selection-start-line="15" selection-start-column="19" selection-end-line="15" selection-end-column="19" />
-              <folding />
+            <state relative-caret-position="26">
+              <caret line="57" column="16" lean-forward="false" selection-start-line="57" selection-start-column="16" selection-end-line="57" selection-end-column="16" />
+              <folding>
+                <element signature="e#125#174#0#PHP" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -47,11 +55,11 @@
         <option value="$PROJECT_DIR$/src/Database.php" />
         <option value="$PROJECT_DIR$/src/ElementNotFound.php" />
         <option value="$PROJECT_DIR$/src/Kahlan/ToContain.php" />
-        <option value="$PROJECT_DIR$/src/Browser.php" />
         <option value="$PROJECT_DIR$/src/Kahlan/setup.php" />
-        <option value="$PROJECT_DIR$/src/Kahlan/setupBrowser.php" />
         <option value="$PROJECT_DIR$/src/Kahlan/setupDB.php" />
         <option value="$PROJECT_DIR$/src/Kahlan/Kahlan.php" />
+        <option value="$PROJECT_DIR$/src/Kahlan/setupBrowser.php" />
+        <option value="$PROJECT_DIR$/src/Browser.php" />
       </list>
     </option>
   </component>
@@ -71,10 +79,10 @@
     </include_path>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="202" />
-    <option name="y" value="244" />
-    <option name="width" value="1280" />
-    <option name="height" value="800" />
+    <option name="x" value="204" />
+    <option name="y" value="89" />
+    <option name="width" value="1490" />
+    <option name="height" value="1003" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -91,7 +99,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -185,6 +192,7 @@
         </subPane>
       </pane>
       <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -244,6 +252,12 @@
       <method />
     </configuration>
     <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
       <method />
     </configuration>
     <configuration default="true" type="js.build_tools.npm" factoryName="npm">
@@ -277,32 +291,33 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1481703288729</updated>
-      <workItem from="1481703290211" duration="6559000" />
+      <workItem from="1481703290211" duration="9595000" />
+      <workItem from="1481724150969" duration="2000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6559000" />
+    <option name="totallyTimeSpent" value="9597000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="202" y="244" width="1280" height="800" extended-state="0" />
+    <frame x="204" y="89" width="1490" height="1003" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2147651" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32904884" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32904884" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
@@ -320,108 +335,30 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/stubs/standard/Core_c.php">
+    <entry file="file://$PROJECT_DIR$/src/Browser.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="208">
-          <caret line="8" column="6" lean-forward="false" selection-start-line="8" selection-start-column="6" selection-end-line="8" selection-end-column="6" />
+        <state relative-caret-position="1222">
+          <caret line="57" column="16" lean-forward="false" selection-start-line="57" selection-start-column="16" selection-end-line="57" selection-end-column="16" />
           <folding>
-            <marker date="1479777502000" expanded="true" signature="48:142" ph=" Created by typecasting to object. ..." />
-            <marker date="1479777502000" expanded="true" signature="168:292" ph=" Interface to detect if a class is traversable using &amp;foreach;. ..." />
-            <marker date="1479777502000" expanded="true" signature="325:434" ph=" Interface to create an external Iterator. ..." />
-            <marker date="1479777502000" expanded="true" signature="486:778" ph="..." />
-            <marker date="1479777502000" expanded="true" signature="495:740" ph=" Retrieve an external iterator ..." />
-            <marker date="1479777502000" expanded="true" signature="784:933" ph=" Interface for external iterators or objects that can be iterated ..." />
-            <marker date="1479777502000" expanded="true" signature="976:2140" ph="..." />
-            <marker date="1479777502000" expanded="true" signature="985:1146" ph=" Return the current element ..." />
-            <marker date="1479777502000" expanded="true" signature="1188:1357" ph=" Move forward to next element ..." />
-            <marker date="1479777502000" expanded="true" signature="1396:1582" ph=" Return the key of the current element ..." />
-            <marker date="1479777502000" expanded="true" signature="1620:1884" ph=" Checks if current position is valid ..." />
-            <marker date="1479777502000" expanded="true" signature="1924:2107" ph=" Rewind the Iterator to the first element ..." />
-            <marker date="1479777502000" expanded="true" signature="2146:2257" ph=" Interface to provide accessing objects as arrays. ..." />
-            <marker date="1479777502000" expanded="true" signature="2283:3594" ph="..." />
-            <marker date="1479777502000" expanded="true" signature="2292:2653" ph=" Whether a offset exists ..." />
-            <marker date="1479777502000" expanded="true" signature="2707:2947" ph=" Offset to retrieve ..." />
-            <marker date="1479777502000" expanded="true" signature="2998:3283" ph=" Offset to set ..." />
-            <marker date="1479777502000" expanded="true" signature="3342:3549" ph=" Offset to unset ..." />
-            <marker date="1479777502000" expanded="true" signature="3600:3700" ph=" Interface for customized serializing. ..." />
-            <marker date="1479777502000" expanded="true" signature="3727:4268" ph="..." />
-            <marker date="1479777502000" expanded="true" signature="3736:3936" ph=" String representation of object ..." />
-            <marker date="1479777502000" expanded="true" signature="3980:4219" ph=" Constructs the object ..." />
-            <marker date="1479777502000" expanded="true" signature="4275:4480" ph=" Throwable is the base interface for any object that can be thrown via a throw statement in PHP 7, ..." />
-            <marker date="1479777502000" expanded="true" signature="4502:6683" ph="{...}" />
-            <marker date="1479777502000" expanded="true" signature="4513:4646" ph=" Gets the message ..." />
-            <marker date="1479777502000" expanded="true" signature="4691:5034" ph=" Gets the exception code ..." />
-            <marker date="1479777502000" expanded="true" signature="5076:5298" ph=" Gets the file in which the exception occurred ..." />
-            <marker date="1479777502000" expanded="true" signature="5340:5567" ph=" Gets the line on which the object was instantiated ..." />
-            <marker date="1479777502000" expanded="true" signature="5609:5857" ph=" Gets the stack trace ..." />
-            <marker date="1479777502000" expanded="true" signature="5900:6092" ph=" Gets the stack trace as a string ..." />
-            <marker date="1479777502000" expanded="true" signature="6143:6372" ph=" Returns the previous Throwable ..." />
-            <marker date="1479777502000" expanded="true" signature="6418:6645" ph=" Gets a string representation of the thrown object ..." />
-            <marker date="1479777502000" expanded="true" signature="6687:6797" ph=" Exception is the base class for ..." />
-            <marker date="1479777502000" expanded="true" signature="6838:9737" ph="..." />
-            <marker date="1479777502000" expanded="true" signature="6935:7066" ph=" Clone the exception ..." />
-            <marker date="1479777502000" expanded="true" signature="7118:7517" ph=" Construct the exception. Note: The message is NOT binary safe. ..." />
-            <marker date="1479777502000" expanded="true" signature="7618:7798" ph=" Gets the Exception message ..." />
-            <marker date="1479777502000" expanded="true" signature="7852:8172" ph=" Gets the Exception code ..." />
-            <marker date="1479777502000" expanded="true" signature="8223:8433" ph=" Gets the file in which the exception occurred ..." />
-            <marker date="1479777502000" expanded="true" signature="8484:8691" ph=" Gets the line in which the exception occurred ..." />
-            <marker date="1479777502000" expanded="true" signature="8742:8917" ph=" Gets the stack trace ..." />
-            <marker date="1479777502000" expanded="true" signature="8969:9187" ph=" Returns previous Exception ..." />
-            <marker date="1479777502000" expanded="true" signature="9242:9438" ph=" Gets the stack trace as a string ..." />
-            <marker date="1479777502000" expanded="true" signature="9498:9697" ph=" String representation of the exception ..." />
-            <marker date="1479777502000" expanded="true" signature="9743:9875" ph=" Error is the base class for all internal PHP error exceptions. ..." />
-            <marker date="1479777502000" expanded="true" signature="9912:12541" ph="..." />
-            <marker date="1479777502000" expanded="true" signature="9921:10241" ph=" Construct the error object. ..." />
-            <marker date="1479777502000" expanded="true" signature="10329:10341" ph="{...}" />
-            <marker date="1479777502000" expanded="true" signature="10350:10484" ph=" Gets the message ..." />
-            <marker date="1479777502000" expanded="true" signature="10519:10531" ph="{...}" />
-            <marker date="1479777502000" expanded="true" signature="10540:10883" ph=" Gets the exception code ..." />
-            <marker date="1479777502000" expanded="true" signature="10927:11149" ph=" Gets the file in which the exception occurred ..." />
-            <marker date="1479777502000" expanded="true" signature="11193:11420" ph=" Gets the line on which the object was instantiated ..." />
-            <marker date="1479777502000" expanded="true" signature="11465:11713" ph=" Gets the stack trace ..." />
-            <marker date="1479777502000" expanded="true" signature="11757:11949" ph=" Gets the stack trace as a string ..." />
-            <marker date="1479777502000" expanded="true" signature="12001:12230" ph=" Returns the previous Throwable ..." />
-            <marker date="1479777502000" expanded="true" signature="12276:12503" ph=" Gets a string representation of the thrown object ..." />
-            <marker date="1479777502000" expanded="true" signature="12547:13027" ph=" There are three scenarios where a TypeError may be thrown. ..." />
-            <marker date="1479777502000" expanded="true" signature="13061:13063" ph="..." />
-            <marker date="1479777502000" expanded="true" signature="13069:13247" ph=" ParseError is thrown when an error occurs while parsing PHP code, such as when {@see eval()} is called. ..." />
-            <marker date="1479777502000" expanded="true" signature="13282:13284" ph="..." />
-            <marker date="1479777502000" expanded="true" signature="13290:13443" ph=" AssertionError is thrown when an assertion made via {@see assert()} fails. ..." />
-            <marker date="1479777502000" expanded="true" signature="13482:13484" ph="..." />
-            <marker date="1479777502000" expanded="true" signature="13490:13856" ph=" ArithmeticError is thrown when an error occurs while performing mathematical operations. ..." />
-            <marker date="1479777502000" expanded="true" signature="13896:13898" ph="..." />
-            <marker date="1479777502000" expanded="true" signature="13904:14069" ph=" DivisionByZeroError is thrown when an attempt is made to divide a number by zero. ..." />
-            <marker date="1479777502000" expanded="true" signature="14113:14115" ph="..." />
-            <marker date="1479777502000" expanded="true" signature="14121:14205" ph=" An Error Exception. ..." />
-            <marker date="1479777502000" expanded="true" signature="14248:15258" ph="..." />
-            <marker date="1479777502000" expanded="true" signature="14284:14884" ph=" Constructs the exception ..." />
-            <marker date="1479777502000" expanded="true" signature="15025:15211" ph=" Gets the exception severity ..." />
-            <marker date="1479777502000" expanded="true" signature="15264:15878" ph=" Class used to represent anonymous functions. ..." />
-            <marker date="1479777502000" expanded="true" signature="15902:18599" ph="..." />
-            <marker date="1479777502000" expanded="true" signature="15911:16159" ph=" This method exists only to disallow instantiation of the Closure class. ..." />
-            <marker date="1479777502000" expanded="true" signature="16209:16470" ph=" This is for consistency with other classes that implement calling magic, ..." />
-            <marker date="1479777502000" expanded="true" signature="16521:17197" ph=" Closure::bindTo � Duplicates the closure with a new bound object and class scope ..." />
-            <marker date="1479777502000" expanded="true" signature="17264:18056" ph=" This method is a static version of Closure::bindTo(). ..." />
-            <marker date="1479777502000" expanded="true" signature="18146:18547" ph=" Temporarily binds the closure to newthis, and calls it with any given parameters. ..." />
+            <element signature="e#125#174#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spec/helper/WireDatabaseBackup.php">
+    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/stubs/standard/Core_c.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="78">
-          <caret line="8" column="36" lean-forward="false" selection-start-line="8" selection-start-column="36" selection-end-line="8" selection-end-column="36" />
-          <folding />
+        <state relative-caret-position="208">
+          <caret line="8" column="6" lean-forward="false" selection-start-line="8" selection-start-column="6" selection-end-line="8" selection-end-column="6" />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/spec/helper/WireDatabaseBackup.php" />
     <entry file="file://$PROJECT_DIR$/dummy/WireDatabaseBackup.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <marker date="1481705671000" expanded="false" signature="9:83" ph=" Created by PhpStorm. ..." />
-            <marker date="1481705671000" expanded="true" signature="136:141" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -446,7 +383,6 @@
           <caret line="13" column="2" lean-forward="false" selection-start-line="13" selection-start-column="2" selection-end-line="13" selection-end-column="2" />
           <folding>
             <marker date="1481705874000" expanded="false" signature="9:83" ph=" Created by PhpStorm. ..." />
-            <marker date="1481705874000" expanded="true" signature="140:145" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -470,7 +406,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="104">
           <caret line="4" column="20" lean-forward="false" selection-start-line="4" selection-start-column="20" selection-end-line="4" selection-end-column="20" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -486,14 +421,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="78">
           <caret line="3" column="21" lean-forward="false" selection-start-line="3" selection-start-column="21" selection-end-line="3" selection-end-column="21" />
-          <folding>
-            <marker date="1481710143000" expanded="true" signature="0:468" ph="{&quot;name&quot;: &quot;lostkobrakai/pw-test-helper&quot;...}" />
-            <marker date="1481710143000" expanded="true" signature="153:259" ph="[...]" />
-            <marker date="1481710143000" expanded="true" signature="163:253" ph="{&quot;name&quot;: &quot;Benjamin Milde&quot;...}" />
-            <marker date="1481710143000" expanded="true" signature="276:362" ph="{&quot;behat/mink&quot;: &quot;^1.7&quot;...}" />
-            <marker date="1481710143000" expanded="true" signature="380:466" ph="{...}" />
-            <marker date="1481710143000" expanded="true" signature="399:460" ph="{&quot;LostKobrakai\TestHelpers\&quot;: &quot;src/&quot;...}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -504,7 +431,6 @@
           <folding>
             <marker date="1481710304000" expanded="true" signature="48:112" ph="..." />
             <marker date="1481710304000" expanded="true" signature="117:271" ph=" Class Database ..." />
-            <marker date="1481710304000" expanded="true" signature="288:2537" ph="{...}" />
             <marker date="1481710304000" expanded="true" signature="295:314" ph=" @var Config ..." />
             <marker date="1481710304000" expanded="true" signature="340:358" ph=" @var array ..." />
             <marker date="1481710304000" expanded="true" signature="392:448" ph=" TestDatabase constructor. ..." />
@@ -531,50 +457,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="259">
           <caret line="110" column="20" lean-forward="false" selection-start-line="110" selection-start-column="20" selection-end-line="110" selection-end-column="20" />
-          <folding>
-            <marker date="1457166378000" expanded="false" signature="9:233" ph="..." />
-            <marker date="1457166378000" expanded="true" signature="263:348" ph=" Mink sessions manager. ..." />
-            <marker date="1457166378000" expanded="true" signature="361:4949" ph="{...}" />
-            <marker date="1457166378000" expanded="true" signature="405:457" ph=" Sessions. ..." />
-            <marker date="1457166378000" expanded="true" signature="501:576" ph=" Initializes manager. ..." />
-            <marker date="1457166378000" expanded="true" signature="637:763" ph="{...}" />
-            <marker date="1457166378000" expanded="true" signature="694:756" ph="..." />
-            <marker date="1457166378000" expanded="true" signature="772:813" ph=" Stops all started sessions. ..." />
-            <marker date="1457166378000" expanded="true" signature="848:891" ph="{...}" />
-            <marker date="1457166378000" expanded="true" signature="900:1002" ph=" Registers new session. ..." />
-            <marker date="1457166378000" expanded="true" signature="1065:1156" ph="{...}" />
-            <marker date="1457166378000" expanded="true" signature="1165:1300" ph=" Checks whether session with specified name is registered. ..." />
-            <marker date="1457166378000" expanded="true" signature="1340:1410" ph="{...}" />
-            <marker date="1457166378000" expanded="true" signature="1419:1579" ph=" Sets default session name to use. ..." />
-            <marker date="1457166378000" expanded="true" signature="1630:1878" ph="{...}" />
-            <marker date="1457166378000" expanded="true" signature="1718:1827" ph="..." />
-            <marker date="1457166378000" expanded="true" signature="1887:1980" ph=" Returns default session name or null if none. ..." />
-            <marker date="1457166378000" expanded="true" signature="2026:2080" ph="{...}" />
-            <marker date="1457166378000" expanded="true" signature="2089:2361" ph=" Returns registered session by it's name or active one and automatically starts it if required. ..." />
-            <marker date="1457166378000" expanded="true" signature="2408:2609" ph="{...}" />
-            <marker date="1457166378000" expanded="true" signature="2536:2576" ph="..." />
-            <marker date="1457166378000" expanded="true" signature="2618:2962" ph=" Checks whether a named session (or the default session) has already been started. ..." />
-            <marker date="1457166378000" expanded="true" signature="3015:3114" ph="{...}" />
-            <marker date="1457166378000" expanded="true" signature="3123:3262" ph=" Returns session asserter. ..." />
-            <marker date="1457166378000" expanded="true" signature="3315:3476" ph="{...}" />
-            <marker date="1457166378000" expanded="true" signature="3367:3428" ph="..." />
-            <marker date="1457166378000" expanded="true" signature="3485:3527" ph=" Resets all started sessions. ..." />
-            <marker date="1457166378000" expanded="true" signature="3565:3725" ph="{...}" />
-            <marker date="1457166378000" expanded="true" signature="3619:3718" ph="..." />
-            <marker date="1457166378000" expanded="true" signature="3660:3708" ph="..." />
-            <marker date="1457166378000" expanded="true" signature="3734:3778" ph=" Restarts all started sessions. ..." />
-            <marker date="1457166378000" expanded="true" signature="3818:3980" ph="{...}" />
-            <marker date="1457166378000" expanded="true" signature="3872:3973" ph="..." />
-            <marker date="1457166378000" expanded="true" signature="3913:3963" ph="..." />
-            <marker date="1457166378000" expanded="true" signature="3989:4030" ph=" Stops all started sessions. ..." />
-            <marker date="1457166378000" expanded="true" signature="4067:4226" ph="{...}" />
-            <marker date="1457166378000" expanded="true" signature="4121:4219" ph="..." />
-            <marker date="1457166378000" expanded="true" signature="4162:4209" ph="..." />
-            <marker date="1457166378000" expanded="true" signature="4235:4470" ph=" Returns the named or default session without starting it. ..." />
-            <marker date="1457166378000" expanded="true" signature="4523:4947" ph="{...}" />
-            <marker date="1457166378000" expanded="true" signature="4624:4713" ph="..." />
-            <marker date="1457166378000" expanded="true" signature="4761:4870" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -582,76 +464,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="259">
           <caret line="140" column="20" lean-forward="false" selection-start-line="140" selection-start-column="20" selection-end-line="140" selection-end-column="20" />
-          <folding>
-            <marker date="1457166378000" expanded="false" signature="9:233" ph="..." />
-            <marker date="1457166378000" expanded="false" signature="264:380" ph="..." />
-            <marker date="1457166378000" expanded="true" signature="385:461" ph=" Mink session. ..." />
-            <marker date="1457166378000" expanded="true" signature="477:8041" ph="{...}" />
-            <marker date="1457166378000" expanded="true" signature="559:688" ph=" Initializes session. ..." />
-            <marker date="1457166378000" expanded="true" signature="790:1084" ph="{...}" />
-            <marker date="1457166378000" expanded="true" signature="875:940" ph="..." />
-            <marker date="1457166378000" expanded="true" signature="1093:1181" ph=" Checks whether session (driver) was started. ..." />
-            <marker date="1457166378000" expanded="true" signature="1215:1270" ph="{...}" />
-            <marker date="1457166378000" expanded="true" signature="1279:1560" ph=" Starts session driver. ..." />
-            <marker date="1457166378000" expanded="true" signature="1590:1634" ph="{...}" />
-            <marker date="1457166378000" expanded="true" signature="1643:1678" ph=" Stops session driver. ..." />
-            <marker date="1457166378000" expanded="true" signature="1707:1750" ph="{...}" />
-            <marker date="1457166378000" expanded="true" signature="1759:1796" ph=" Restart session driver. ..." />
-            <marker date="1457166378000" expanded="true" signature="1828:1903" ph="{...}" />
-            <marker date="1457166378000" expanded="true" signature="1912:2198" ph=" Reset session driver state. ..." />
-            <marker date="1457166378000" expanded="true" signature="2228:2272" ph="{...}" />
-            <marker date="1457166378000" expanded="true" signature="2281:2356" ph=" Returns session driver. ..." />
-            <marker date="1457166378000" expanded="true" signature="2390:2432" ph="{...}" />
-            <marker date="1457166378000" expanded="true" signature="2441:2514" ph=" Returns page element. ..." />
-            <marker date="1457166378000" expanded="true" signature="2546:2586" ph="{...}" />
-            <marker date="1457166378000" expanded="true" signature="2595:2674" ph=" Returns selectors handler. ..." />
-            <marker date="1457166378000" expanded="true" signature="2718:2770" ph="{...}" />
-            <marker date="1457166378000" expanded="true" signature="2779:2862" ph=" Visit specified URL. ..." />
-            <marker date="1457166378000" expanded="true" signature="2896:2944" ph="{...}" />
-            <marker date="1457166378000" expanded="true" signature="2953:3148" ph=" Sets HTTP Basic authentication parameters. ..." />
-            <marker date="1457166378000" expanded="true" signature="3206:3273" ph="{...}" />
-            <marker date="1457166378000" expanded="true" signature="3282:3387" ph=" Sets specific request header. ..." />
-            <marker date="1457166378000" expanded="true" signature="3441:3509" ph="{...}" />
-            <marker date="1457166378000" expanded="true" signature="3518:3589" ph=" Returns all response headers. ..." />
-            <marker date="1457166378000" expanded="true" signature="3632:3696" ph="{...}" />
-            <marker date="1457166378000" expanded="true" signature="3705:3820" ph=" Returns specific response header. ..." />
-            <marker date="1457166378000" expanded="true" signature="3867:4192" ph="{...}" />
-            <marker date="1457166378000" expanded="true" signature="4069:4103" ph="..." />
-            <marker date="1457166378000" expanded="true" signature="4201:4289" ph=" Sets cookie. ..." />
-            <marker date="1457166378000" expanded="true" signature="4343:4404" ph="{...}" />
-            <marker date="1457166378000" expanded="true" signature="4413:4518" ph=" Returns cookie by name. ..." />
-            <marker date="1457166378000" expanded="true" signature="4557:4617" ph="{...}" />
-            <marker date="1457166378000" expanded="true" signature="4626:4695" ph=" Returns response status code. ..." />
-            <marker date="1457166378000" expanded="true" signature="4733:4792" ph="{...}" />
-            <marker date="1457166378000" expanded="true" signature="4801:4872" ph=" Returns current URL address. ..." />
-            <marker date="1457166378000" expanded="true" signature="4910:4969" ph="{...}" />
-            <marker date="1457166378000" expanded="true" signature="4978:5168" ph=" Capture a screenshot of the current window. ..." />
-            <marker date="1457166378000" expanded="true" signature="5206:5265" ph="{...}" />
-            <marker date="1457166378000" expanded="true" signature="5274:5387" ph=" Return the names of all open windows. ..." />
-            <marker date="1457166378000" expanded="true" signature="5426:5486" ph="{...}" />
-            <marker date="1457166378000" expanded="true" signature="5495:5617" ph=" Return the name of the currently active window. ..." />
-            <marker date="1457166378000" expanded="true" signature="5655:5714" ph="{...}" />
-            <marker date="1457166378000" expanded="true" signature="5723:5766" ph=" Reloads current session page. ..." />
-            <marker date="1457166378000" expanded="true" signature="5797:5842" ph="{...}" />
-            <marker date="1457166378000" expanded="true" signature="5851:5898" ph=" Moves backward 1 page in history. ..." />
-            <marker date="1457166378000" expanded="true" signature="5927:5970" ph="{...}" />
-            <marker date="1457166378000" expanded="true" signature="5979:6025" ph=" Moves forward 1 page in history. ..." />
-            <marker date="1457166378000" expanded="true" signature="6057:6103" ph="{...}" />
-            <marker date="1457166378000" expanded="true" signature="6112:6249" ph=" Switches to specific browser window. ..." />
-            <marker date="1457166378000" expanded="true" signature="6300:6358" ph="{...}" />
-            <marker date="1457166378000" expanded="true" signature="6367:6481" ph=" Switches to specific iFrame. ..." />
-            <marker date="1457166378000" expanded="true" signature="6532:6590" ph="{...}" />
-            <marker date="1457166378000" expanded="true" signature="6599:6682" ph=" Execute JS in browser. ..." />
-            <marker date="1457166378000" expanded="true" signature="6727:6786" ph="{...}" />
-            <marker date="1457166378000" expanded="true" signature="6795:6932" ph=" Execute JS in browser and return it's response. ..." />
-            <marker date="1457166378000" expanded="true" signature="6978:7045" ph="{...}" />
-            <marker date="1457166378000" expanded="true" signature="7054:7249" ph=" Waits some time or until JS condition turns true. ..." />
-            <marker date="1457166378000" expanded="true" signature="7305:7372" ph="{...}" />
-            <marker date="1457166378000" expanded="true" signature="7381:7644" ph=" Set the dimensions of the window. ..." />
-            <marker date="1457166378000" expanded="true" signature="7710:7783" ph="{...}" />
-            <marker date="1457166378000" expanded="true" signature="7792:7930" ph=" Maximize the window if it is not maximized already. ..." />
-            <marker date="1457166378000" expanded="true" signature="7981:8039" ph="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -661,7 +473,6 @@
           <caret line="31" column="1" lean-forward="false" selection-start-line="31" selection-start-column="1" selection-end-line="31" selection-end-column="1" />
           <folding>
             <marker date="1481711488000" expanded="false" signature="9:83" ph=" Created by PhpStorm. ..." />
-            <marker date="1481711488000" expanded="true" signature="162:522" ph="{...}" />
             <marker date="1481711488000" expanded="true" signature="228:266" ph="{...}" />
             <marker date="1481711488000" expanded="true" signature="310:418" ph="{...}" />
             <marker date="1481711488000" expanded="true" signature="449:520" ph="{...}" />
@@ -669,6 +480,7 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/Kahlan/setupDB.php" />
     <entry file="file://$PROJECT_DIR$/src/Kahlan/ToContain.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="598">
@@ -689,81 +501,44 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Browser.php">
+    <entry file="file://$PROJECT_DIR$/src/Kahlan/SetupInclude.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="130">
-          <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+        <state relative-caret-position="156">
+          <caret line="11" column="18" lean-forward="false" selection-start-line="11" selection-start-column="6" selection-end-line="11" selection-end-column="18" />
           <folding>
-            <marker date="1481713825000" expanded="false" signature="9:83" ph=" Created by PhpStorm. ..." />
-            <marker date="1481713825000" expanded="true" signature="129:352" ph="..." />
-            <marker date="1481713825000" expanded="true" signature="357:509" ph=" Class Browser ..." />
-            <marker date="1481713825000" expanded="true" signature="525:2798" ph="{...}" />
-            <marker date="1481713825000" expanded="true" signature="532:549" ph=" @var Mink ..." />
-            <marker date="1481713825000" expanded="true" signature="573:609" ph=" Start Zombie Server and Mink ..." />
-            <marker date="1481713825000" expanded="true" signature="639:865" ph="{...}" />
-            <marker date="1481713825000" expanded="true" signature="669:788" ph="..." />
-            <marker date="1481713825000" expanded="true" signature="871:898" ph=" Reset between tests ..." />
-            <marker date="1481713825000" expanded="true" signature="926:964" ph="{...}" />
-            <marker date="1481713825000" expanded="true" signature="970:1006" ph=" Clean up the browser objects ..." />
-            <marker date="1481713825000" expanded="true" signature="1035:1068" ph="..." />
-            <marker date="1481713825000" expanded="true" signature="1075:1256" ph=" Create a new browser session ..." />
-            <marker date="1481713825000" expanded="true" signature="1305:1545" ph="{...}" />
-            <marker date="1481713825000" expanded="true" signature="1551:1590" ph=" @param $path ..." />
-            <marker date="1481713825000" expanded="true" signature="1631:1742" ph="{...}" />
-            <marker date="1481713825000" expanded="true" signature="1748:1816" ph=" Load a url relative to the current root ..." />
-            <marker date="1481713825000" expanded="true" signature="1855:1919" ph="{...}" />
-            <marker date="1481713825000" expanded="true" signature="1925:2035" ph=" Gets the browser page. ..." />
-            <marker date="1481713825000" expanded="true" signature="2080:2130" ph="{...}" />
-            <marker date="1481713825000" expanded="true" signature="2136:2295" ph=" @param  string $selector The CSS selector ..." />
-            <marker date="1481713825000" expanded="true" signature="2365:2509" ph="{...}" />
-            <marker date="1481713825000" expanded="true" signature="2515:2656" ph=" API shortcut. ..." />
-            <marker date="1481713825000" expanded="true" signature="2710:2796" ph="{...}" />
-            <marker date="1481713825000" expanded="true" signature="2732:2791" ph="..." />
-            <marker date="1481713825000" expanded="true" signature="2758:2780" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Kahlan/setupDB.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="130">
-          <caret line="5" column="25" lean-forward="false" selection-start-line="5" selection-start-column="25" selection-end-line="5" selection-end-column="25" />
-          <folding>
-            <marker date="1481714126000" expanded="true" signature="55:186" ph="..." />
-            <marker date="1481714126000" expanded="true" signature="191:237" ph=" @var string $path ..." />
-            <marker date="1481714126000" expanded="true" signature="363:815" ph="..." />
-            <marker date="1481714126000" expanded="true" signature="435:814" ph="..." />
-            <marker date="1481714126000" expanded="true" signature="836:1007" ph="..." />
-            <marker date="1481714126000" expanded="true" signature="888:1006" ph="..." />
+            <marker date="1481721493000" expanded="false" signature="9:83" ph=" Created by PhpStorm. ..." />
+            <marker date="1481721493000" expanded="true" signature="209:333" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Kahlan/setupBrowser.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-236">
-          <caret line="7" column="28" lean-forward="false" selection-start-line="7" selection-start-column="28" selection-end-line="7" selection-end-column="28" />
+        <state relative-caret-position="149">
+          <caret line="16" column="20" lean-forward="true" selection-start-line="16" selection-start-column="20" selection-end-line="16" selection-end-column="20" />
           <folding>
-            <marker date="1481714089000" expanded="true" signature="55:163" ph="..." />
-            <marker date="1481714089000" expanded="true" signature="209:450" ph="..." />
-            <marker date="1481714089000" expanded="true" signature="261:449" ph="..." />
-            <marker date="1481714089000" expanded="true" signature="471:686" ph="..." />
-            <marker date="1481714089000" expanded="true" signature="534:685" ph="..." />
-            <marker date="1481714089000" expanded="true" signature="607:658" ph="..." />
-            <marker date="1481714089000" expanded="true" signature="634:657" ph="..." />
-            <marker date="1481714089000" expanded="true" signature="707:816" ph="..." />
-            <marker date="1481714089000" expanded="true" signature="770:815" ph="..." />
-            <marker date="1481714089000" expanded="true" signature="837:996" ph="..." />
-            <marker date="1481714089000" expanded="true" signature="889:995" ph="..." />
+            <marker date="1481723109000" expanded="true" signature="55:163" ph="..." />
+            <marker date="1481723109000" expanded="true" signature="262:503" ph="..." />
+            <marker date="1481723109000" expanded="true" signature="314:502" ph="..." />
+            <marker date="1481723109000" expanded="true" signature="524:776" ph="..." />
+            <marker date="1481723109000" expanded="true" signature="605:775" ph="..." />
+            <marker date="1481723109000" expanded="true" signature="697:748" ph="..." />
+            <marker date="1481723109000" expanded="true" signature="724:747" ph="..." />
+            <marker date="1481723109000" expanded="true" signature="797:906" ph="..." />
+            <marker date="1481723109000" expanded="true" signature="860:905" ph="..." />
+            <marker date="1481723109000" expanded="true" signature="927:1086" ph="..." />
+            <marker date="1481723109000" expanded="true" signature="979:1085" ph="..." />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Kahlan/Kahlan.php">
+    <entry file="file://$PROJECT_DIR$/src/Browser.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
-          <caret line="15" column="19" lean-forward="false" selection-start-line="15" selection-start-column="19" selection-end-line="15" selection-end-column="19" />
-          <folding />
+        <state relative-caret-position="26">
+          <caret line="57" column="16" lean-forward="false" selection-start-line="57" selection-start-column="16" selection-end-line="57" selection-end-column="16" />
+          <folding>
+            <element signature="e#125#174#0#PHP" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
