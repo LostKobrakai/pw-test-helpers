@@ -19,13 +19,13 @@ if(!isset($path) || !isset($dbName))
 Filter::register('testhelper.processwire.startup', function($chain) use($path, $dbName) {
 	define('ENVIRONMENT', 'test');
 
-	$config = ProcessWire::buildConfig(__DIR__);
+	$config = ProcessWire::buildConfig($path);
 	$config->allowExceptions = true; // Do not catch exceptions
 	$config->debug = true;
 	$config->dbName = $dbName;
 
 	$testDatabase = new Database($config);
-	$testDatabase->create(__DIR__ . '/../spec/setup/blank.sql');
+	$testDatabase->create($path . '/../spec/setup/blank.sql');
 
 	$this->suite()->processwire = new ProcessWire($config);
 
