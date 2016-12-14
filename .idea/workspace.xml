@@ -1,0 +1,495 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="901e7069-8ccf-4bd4-a766-f70a683d7f99" name="Default" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings" phpInterpreterId="ca898888-d9e6-42a2-b96e-5fa8cb950ec8">
+    <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
+    <pharPath>/usr/local/bin/composer</pharPath>
+  </component>
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="pw-test-helper" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="26">
+              <caret line="1" column="7" lean-forward="false" selection-start-line="1" selection-start-column="7" selection-end-line="1" selection-end-column="7" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/Database.php" />
+        <option value="$PROJECT_DIR$/spec/helper/WireDatabaseBackup.php" />
+        <option value="$PROJECT_DIR$/spec/Database.spec.php" />
+        <option value="$PROJECT_DIR$/spec/helper/Config.php" />
+        <option value="$PROJECT_DIR$/dummy/Config.php" />
+        <option value="$PROJECT_DIR$/spec/dummy/PDOCreate.php" />
+        <option value="$PROJECT_DIR$/composer.json" />
+        <option value="$PROJECT_DIR$/.gitattributes" />
+        <option value="$PROJECT_DIR$/.gitignore" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true">
+    <include_path>
+      <path value="$PROJECT_DIR$/vendor/composer" />
+    </include_path>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="202" />
+    <option name="y" value="244" />
+    <option name="width" value="1280" />
+    <option name="height" value="800" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pw-test-helper" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pw-test-helper" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pw-test-helper" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pw-test-helper" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pw-test-helper" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pw-test-helper" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="spec" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pw-test-helper" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pw-test-helper" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="spec" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dummy" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pw-test-helper" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pw-test-helper" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dummy" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scratches" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="settings.editor.selected.configurable" value="web-ide.project.structure" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="nodejs_interpreter_path" value="/usr/local/bin/node" />
+    <property name="js.eslint.eslintPackage" value="" />
+    <property name="js-jscs-nodeInterpreter" value="/usr/local/bin/node" />
+    <property name="php.override.implement.member.chooser.php.doc" value="NONE" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/spec" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="BashConfigurationType" factoryName="Bash">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="INTERPRETER_PATH" value="/bin/bash" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerProtractor" factoryName="Protractor">
+      <config-file value="" />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" path-to-node="project" working-dir="">
+      <method />
+    </configuration>
+    <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
+      <TestRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpBehatConfigurationType" factoryName="Behat">
+      <BehatRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpLocalRunConfigurationType" factoryName="PHP Console">
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpSpecConfigurationType" factoryName="PHPSpec">
+      <PhpTestRunnerSettings />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.npm" factoryName="npm">
+      <command value="run-script" />
+      <scripts />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="mocha-javascript-test-runner" factoryName="Mocha">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <working-directory />
+      <pass-parent-env>true</pass-parent-env>
+      <envs />
+      <ui />
+      <extra-mocha-options />
+      <test-kind>DIRECTORY</test-kind>
+      <test-directory />
+      <recursive>false</recursive>
+      <method />
+    </configuration>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="901e7069-8ccf-4bd4-a766-f70a683d7f99" name="Default" comment="" />
+      <created>1481703288729</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1481703288729</updated>
+      <workItem from="1481703290211" duration="3115000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="3115000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="202" y="244" width="1280" height="800" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32904884" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="processedProjectFiles" value="true" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/stubs/standard/Core_c.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="8" column="6" lean-forward="false" selection-start-line="8" selection-start-column="6" selection-end-line="8" selection-end-column="6" />
+          <folding>
+            <marker date="1479777502000" expanded="true" signature="48:142" ph=" Created by typecasting to object. ..." />
+            <marker date="1479777502000" expanded="true" signature="168:292" ph=" Interface to detect if a class is traversable using &amp;foreach;. ..." />
+            <marker date="1479777502000" expanded="true" signature="325:434" ph=" Interface to create an external Iterator. ..." />
+            <marker date="1479777502000" expanded="true" signature="486:778" ph="..." />
+            <marker date="1479777502000" expanded="true" signature="495:740" ph=" Retrieve an external iterator ..." />
+            <marker date="1479777502000" expanded="true" signature="784:933" ph=" Interface for external iterators or objects that can be iterated ..." />
+            <marker date="1479777502000" expanded="true" signature="976:2140" ph="..." />
+            <marker date="1479777502000" expanded="true" signature="985:1146" ph=" Return the current element ..." />
+            <marker date="1479777502000" expanded="true" signature="1188:1357" ph=" Move forward to next element ..." />
+            <marker date="1479777502000" expanded="true" signature="1396:1582" ph=" Return the key of the current element ..." />
+            <marker date="1479777502000" expanded="true" signature="1620:1884" ph=" Checks if current position is valid ..." />
+            <marker date="1479777502000" expanded="true" signature="1924:2107" ph=" Rewind the Iterator to the first element ..." />
+            <marker date="1479777502000" expanded="true" signature="2146:2257" ph=" Interface to provide accessing objects as arrays. ..." />
+            <marker date="1479777502000" expanded="true" signature="2283:3594" ph="..." />
+            <marker date="1479777502000" expanded="true" signature="2292:2653" ph=" Whether a offset exists ..." />
+            <marker date="1479777502000" expanded="true" signature="2707:2947" ph=" Offset to retrieve ..." />
+            <marker date="1479777502000" expanded="true" signature="2998:3283" ph=" Offset to set ..." />
+            <marker date="1479777502000" expanded="true" signature="3342:3549" ph=" Offset to unset ..." />
+            <marker date="1479777502000" expanded="true" signature="3600:3700" ph=" Interface for customized serializing. ..." />
+            <marker date="1479777502000" expanded="true" signature="3727:4268" ph="..." />
+            <marker date="1479777502000" expanded="true" signature="3736:3936" ph=" String representation of object ..." />
+            <marker date="1479777502000" expanded="true" signature="3980:4219" ph=" Constructs the object ..." />
+            <marker date="1479777502000" expanded="true" signature="4275:4480" ph=" Throwable is the base interface for any object that can be thrown via a throw statement in PHP 7, ..." />
+            <marker date="1479777502000" expanded="true" signature="4502:6683" ph="{...}" />
+            <marker date="1479777502000" expanded="true" signature="4513:4646" ph=" Gets the message ..." />
+            <marker date="1479777502000" expanded="true" signature="4691:5034" ph=" Gets the exception code ..." />
+            <marker date="1479777502000" expanded="true" signature="5076:5298" ph=" Gets the file in which the exception occurred ..." />
+            <marker date="1479777502000" expanded="true" signature="5340:5567" ph=" Gets the line on which the object was instantiated ..." />
+            <marker date="1479777502000" expanded="true" signature="5609:5857" ph=" Gets the stack trace ..." />
+            <marker date="1479777502000" expanded="true" signature="5900:6092" ph=" Gets the stack trace as a string ..." />
+            <marker date="1479777502000" expanded="true" signature="6143:6372" ph=" Returns the previous Throwable ..." />
+            <marker date="1479777502000" expanded="true" signature="6418:6645" ph=" Gets a string representation of the thrown object ..." />
+            <marker date="1479777502000" expanded="true" signature="6687:6797" ph=" Exception is the base class for ..." />
+            <marker date="1479777502000" expanded="true" signature="6838:9737" ph="..." />
+            <marker date="1479777502000" expanded="true" signature="6935:7066" ph=" Clone the exception ..." />
+            <marker date="1479777502000" expanded="true" signature="7118:7517" ph=" Construct the exception. Note: The message is NOT binary safe. ..." />
+            <marker date="1479777502000" expanded="true" signature="7618:7798" ph=" Gets the Exception message ..." />
+            <marker date="1479777502000" expanded="true" signature="7852:8172" ph=" Gets the Exception code ..." />
+            <marker date="1479777502000" expanded="true" signature="8223:8433" ph=" Gets the file in which the exception occurred ..." />
+            <marker date="1479777502000" expanded="true" signature="8484:8691" ph=" Gets the line in which the exception occurred ..." />
+            <marker date="1479777502000" expanded="true" signature="8742:8917" ph=" Gets the stack trace ..." />
+            <marker date="1479777502000" expanded="true" signature="8969:9187" ph=" Returns previous Exception ..." />
+            <marker date="1479777502000" expanded="true" signature="9242:9438" ph=" Gets the stack trace as a string ..." />
+            <marker date="1479777502000" expanded="true" signature="9498:9697" ph=" String representation of the exception ..." />
+            <marker date="1479777502000" expanded="true" signature="9743:9875" ph=" Error is the base class for all internal PHP error exceptions. ..." />
+            <marker date="1479777502000" expanded="true" signature="9912:12541" ph="..." />
+            <marker date="1479777502000" expanded="true" signature="9921:10241" ph=" Construct the error object. ..." />
+            <marker date="1479777502000" expanded="true" signature="10329:10341" ph="{...}" />
+            <marker date="1479777502000" expanded="true" signature="10350:10484" ph=" Gets the message ..." />
+            <marker date="1479777502000" expanded="true" signature="10519:10531" ph="{...}" />
+            <marker date="1479777502000" expanded="true" signature="10540:10883" ph=" Gets the exception code ..." />
+            <marker date="1479777502000" expanded="true" signature="10927:11149" ph=" Gets the file in which the exception occurred ..." />
+            <marker date="1479777502000" expanded="true" signature="11193:11420" ph=" Gets the line on which the object was instantiated ..." />
+            <marker date="1479777502000" expanded="true" signature="11465:11713" ph=" Gets the stack trace ..." />
+            <marker date="1479777502000" expanded="true" signature="11757:11949" ph=" Gets the stack trace as a string ..." />
+            <marker date="1479777502000" expanded="true" signature="12001:12230" ph=" Returns the previous Throwable ..." />
+            <marker date="1479777502000" expanded="true" signature="12276:12503" ph=" Gets a string representation of the thrown object ..." />
+            <marker date="1479777502000" expanded="true" signature="12547:13027" ph=" There are three scenarios where a TypeError may be thrown. ..." />
+            <marker date="1479777502000" expanded="true" signature="13061:13063" ph="..." />
+            <marker date="1479777502000" expanded="true" signature="13069:13247" ph=" ParseError is thrown when an error occurs while parsing PHP code, such as when {@see eval()} is called. ..." />
+            <marker date="1479777502000" expanded="true" signature="13282:13284" ph="..." />
+            <marker date="1479777502000" expanded="true" signature="13290:13443" ph=" AssertionError is thrown when an assertion made via {@see assert()} fails. ..." />
+            <marker date="1479777502000" expanded="true" signature="13482:13484" ph="..." />
+            <marker date="1479777502000" expanded="true" signature="13490:13856" ph=" ArithmeticError is thrown when an error occurs while performing mathematical operations. ..." />
+            <marker date="1479777502000" expanded="true" signature="13896:13898" ph="..." />
+            <marker date="1479777502000" expanded="true" signature="13904:14069" ph=" DivisionByZeroError is thrown when an attempt is made to divide a number by zero. ..." />
+            <marker date="1479777502000" expanded="true" signature="14113:14115" ph="..." />
+            <marker date="1479777502000" expanded="true" signature="14121:14205" ph=" An Error Exception. ..." />
+            <marker date="1479777502000" expanded="true" signature="14248:15258" ph="..." />
+            <marker date="1479777502000" expanded="true" signature="14284:14884" ph=" Constructs the exception ..." />
+            <marker date="1479777502000" expanded="true" signature="15025:15211" ph=" Gets the exception severity ..." />
+            <marker date="1479777502000" expanded="true" signature="15264:15878" ph=" Class used to represent anonymous functions. ..." />
+            <marker date="1479777502000" expanded="true" signature="15902:18599" ph="..." />
+            <marker date="1479777502000" expanded="true" signature="15911:16159" ph=" This method exists only to disallow instantiation of the Closure class. ..." />
+            <marker date="1479777502000" expanded="true" signature="16209:16470" ph=" This is for consistency with other classes that implement calling magic, ..." />
+            <marker date="1479777502000" expanded="true" signature="16521:17197" ph=" Closure::bindTo � Duplicates the closure with a new bound object and class scope ..." />
+            <marker date="1479777502000" expanded="true" signature="17264:18056" ph=" This method is a static version of Closure::bindTo(). ..." />
+            <marker date="1479777502000" expanded="true" signature="18146:18547" ph=" Temporarily binds the closure to newthis, and calls it with any given parameters. ..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spec/helper/WireDatabaseBackup.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="78">
+          <caret line="8" column="36" lean-forward="false" selection-start-line="8" selection-start-column="36" selection-end-line="8" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dummy/WireDatabaseBackup.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1481705671000" expanded="false" signature="9:83" ph=" Created by PhpStorm. ..." />
+            <marker date="1481705671000" expanded="true" signature="136:141" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dummy/Config.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="156">
+          <caret line="11" column="6" lean-forward="false" selection-start-line="11" selection-start-column="6" selection-end-line="11" selection-end-column="6" />
+          <folding>
+            <marker date="1481705874000" expanded="false" signature="9:83" ph=" Created by PhpStorm. ..." />
+            <marker date="1481705874000" expanded="true" signature="144:556" ph="..." />
+            <marker date="1481705874000" expanded="true" signature="191:555" ph="{...}" />
+            <marker date="1481705874000" expanded="true" signature="210:459" ph="..." />
+            <marker date="1481705874000" expanded="true" signature="523:551" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spec/dummy/PDOCreate.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="13" column="2" lean-forward="false" selection-start-line="13" selection-start-column="2" selection-end-line="13" selection-end-column="2" />
+          <folding>
+            <marker date="1481705874000" expanded="false" signature="9:83" ph=" Created by PhpStorm. ..." />
+            <marker date="1481705874000" expanded="true" signature="140:145" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spec/Database.spec.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="494">
+          <caret line="21" column="24" lean-forward="true" selection-start-line="21" selection-start-column="24" selection-end-line="21" selection-end-column="24" />
+          <folding>
+            <marker date="1481705874000" expanded="true" signature="41:124" ph="..." />
+            <marker date="1481705874000" expanded="true" signature="188:758" ph="..." />
+            <marker date="1481705874000" expanded="true" signature="219:757" ph="..." />
+            <marker date="1481705874000" expanded="true" signature="224:754" ph="..." />
+            <marker date="1481705874000" expanded="true" signature="340:753" ph="..." />
+            <marker date="1481705874000" expanded="true" signature="365:542" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Database.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="650">
+          <caret line="25" column="18" lean-forward="false" selection-start-line="25" selection-start-column="18" selection-end-line="25" selection-end-column="18" />
+          <folding>
+            <marker date="1481705187000" expanded="true" signature="48:112" ph="..." />
+            <marker date="1481705187000" expanded="true" signature="128:2377" ph="{...}" />
+            <marker date="1481705187000" expanded="true" signature="135:154" ph=" @var Config ..." />
+            <marker date="1481705187000" expanded="true" signature="180:198" ph=" @var array ..." />
+            <marker date="1481705187000" expanded="true" signature="232:288" ph=" TestDatabase constructor. ..." />
+            <marker date="1481705187000" expanded="true" signature="329:503" ph="{...}" />
+            <marker date="1481705187000" expanded="true" signature="392:498" ph="..." />
+            <marker date="1481705187000" expanded="true" signature="509:621" ph=" Create the temporary database (from scratch and 'empty') ..." />
+            <marker date="1481705187000" expanded="true" signature="658:1301" ph="{...}" />
+            <marker date="1481705187000" expanded="true" signature="1027:1175" ph="..." />
+            <marker date="1481705187000" expanded="true" signature="1202:1296" ph="..." />
+            <marker date="1481705187000" expanded="true" signature="1307:1348" ph=" Drop the temporary database again ..." />
+            <marker date="1481705187000" expanded="true" signature="1375:1611" ph="{...}" />
+            <marker date="1481705187000" expanded="true" signature="1617:1708" ph=" Create the restoreOptions according to the version in install.php ..." />
+            <marker date="1481705187000" expanded="true" signature="1746:2375" ph="{...}" />
+            <marker date="1481705187000" expanded="true" signature="1867:1929" ph="..." />
+            <marker date="1481705187000" expanded="true" signature="1968:2264" ph="..." />
+            <marker date="1481705187000" expanded="true" signature="2082:2260" ph="..." />
+            <marker date="1481705187000" expanded="true" signature="2135:2208" ph="..." />
+            <marker date="1481705187000" expanded="true" signature="2216:2255" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/composer.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="15" column="5" lean-forward="false" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
+          <folding>
+            <marker date="1481707138000" expanded="true" signature="0:384" ph="{&quot;name&quot;: &quot;lostkobrakai/pw-test-helper&quot;...}" />
+            <marker date="1481707138000" expanded="true" signature="153:259" ph="[...]" />
+            <marker date="1481707138000" expanded="true" signature="163:253" ph="{&quot;name&quot;: &quot;Benjamin Milde&quot;...}" />
+            <marker date="1481707138000" expanded="true" signature="296:382" ph="{...}" />
+            <marker date="1481707138000" expanded="true" signature="315:376" ph="{&quot;LostKobrakai\TestHelpers\&quot;: &quot;src/&quot;...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitattributes">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="104">
+          <caret line="4" column="20" lean-forward="false" selection-start-line="4" selection-start-column="20" selection-end-line="4" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="26">
+          <caret line="1" column="7" lean-forward="false" selection-start-line="1" selection-start-column="7" selection-end-line="1" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

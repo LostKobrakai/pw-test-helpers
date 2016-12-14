@@ -1,0 +1,17 @@
+{
+    "name": "lostkobrakai/pw-test-helper",
+    "description": "Helper classes/functions for ProcessWire testing",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Benjamin Milde",
+            "email": "benni@kobrakai.de"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "LostKobrakai\\TestHelpers\\": "src/"
+        }
+    }
+}
