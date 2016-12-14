@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="901e7069-8ccf-4bd4-a766-f70a683d7f99" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Browser.php" afterPath="$PROJECT_DIR$/src/Browser.php" />
-    </list>
+    <list default="true" id="901e7069-8ccf-4bd4-a766-f70a683d7f99" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -24,13 +21,13 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Browser.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/Browser.php">
+      <file leaf-file-name="basic.spec.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/example/basic.spec.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="26">
-              <caret line="57" column="16" lean-forward="false" selection-start-line="57" selection-start-column="16" selection-end-line="57" selection-end-column="16" />
+            <state relative-caret-position="0">
+              <caret line="0" column="5" lean-forward="false" selection-start-line="0" selection-start-column="5" selection-end-line="0" selection-end-column="5" />
               <folding>
-                <element signature="e#125#174#0#PHP" expanded="true" />
+                <element signature="e#7#32#0#PHP" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -60,6 +57,7 @@
         <option value="$PROJECT_DIR$/src/Kahlan/Kahlan.php" />
         <option value="$PROJECT_DIR$/src/Kahlan/setupBrowser.php" />
         <option value="$PROJECT_DIR$/src/Browser.php" />
+        <option value="$PROJECT_DIR$/example/basic.spec.php" />
       </list>
     </option>
   </component>
@@ -84,6 +82,9 @@
     <option name="width" value="1490" />
     <option name="height" value="1003" />
   </component>
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
       <flattenPackages />
@@ -99,6 +100,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -185,6 +187,20 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="example" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pw-test-helper" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pw-test-helper" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="dummy" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
@@ -192,7 +208,6 @@
         </subPane>
       </pane>
       <pane id="Scratches" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -293,11 +308,12 @@
       <updated>1481703288729</updated>
       <workItem from="1481703290211" duration="9595000" />
       <workItem from="1481724150969" duration="2000" />
+      <workItem from="1481725326684" duration="447000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9597000" />
+    <option name="totallyTimeSpent" value="10044000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="204" y="89" width="1490" height="1003" extended-state="0" />
@@ -340,7 +356,65 @@
         <state relative-caret-position="1222">
           <caret line="57" column="16" lean-forward="false" selection-start-line="57" selection-start-column="16" selection-end-line="57" selection-end-column="16" />
           <folding>
-            <element signature="e#125#174#0#PHP" expanded="true" />
+            <marker date="1481723399000" expanded="false" signature="9:83" ph=" Created by PhpStorm. ..." />
+            <marker date="1481723399000" expanded="true" signature="129:334" ph="..." />
+            <marker date="1481723399000" expanded="true" signature="339:491" ph=" Class Browser ..." />
+            <marker date="1481723399000" expanded="true" signature="507:2594" ph="{...}" />
+            <marker date="1481723399000" expanded="true" signature="514:531" ph=" @var Mink ..." />
+            <marker date="1481723399000" expanded="true" signature="555:573" ph=" @var array ..." />
+            <marker date="1481723399000" expanded="true" signature="600:683" ph=" Start Zombie Server and Mink ..." />
+            <marker date="1481723399000" expanded="true" signature="726:1036" ph="{...}" />
+            <marker date="1481723399000" expanded="true" signature="756:875" ph="..." />
+            <marker date="1481723399000" expanded="true" signature="959:1014" ph="..." />
+            <marker date="1481723399000" expanded="true" signature="960:1003" ph="..." />
+            <marker date="1481723399000" expanded="true" signature="1042:1069" ph=" Reset between tests ..." />
+            <marker date="1481723399000" expanded="true" signature="1097:1135" ph="{...}" />
+            <marker date="1481723399000" expanded="true" signature="1141:1177" ph=" Clean up the browser objects ..." />
+            <marker date="1481723399000" expanded="true" signature="1206:1239" ph="..." />
+            <marker date="1481723399000" expanded="true" signature="1246:1427" ph=" Create a new browser session ..." />
+            <marker date="1481723399000" expanded="true" signature="1468:1667" ph="{...}" />
+            <marker date="1481723399000" expanded="true" signature="1673:1712" ph=" @param $path ..." />
+            <marker date="1481723399000" expanded="true" signature="1743:1855" ph="{...}" />
+            <marker date="1481723399000" expanded="true" signature="1861:1929" ph=" Load a url relative to the current root ..." />
+            <marker date="1481723399000" expanded="true" signature="1961:2019" ph="{...}" />
+            <marker date="1481723399000" expanded="true" signature="2025:2135" ph=" Gets the browser page. ..." />
+            <marker date="1481723399000" expanded="true" signature="2173:2221" ph="{...}" />
+            <marker date="1481723399000" expanded="true" signature="2227:2386" ph=" @param  string $selector The CSS selector ..." />
+            <marker date="1481723399000" expanded="true" signature="2449:2592" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Browser.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1222">
+          <caret line="57" column="16" lean-forward="false" selection-start-line="57" selection-start-column="16" selection-end-line="57" selection-end-column="16" />
+          <folding>
+            <marker date="1481723399000" expanded="false" signature="9:83" ph=" Created by PhpStorm. ..." />
+            <marker date="1481723399000" expanded="true" signature="129:334" ph="..." />
+            <marker date="1481723399000" expanded="true" signature="339:491" ph=" Class Browser ..." />
+            <marker date="1481723399000" expanded="true" signature="507:2594" ph="{...}" />
+            <marker date="1481723399000" expanded="true" signature="514:531" ph=" @var Mink ..." />
+            <marker date="1481723399000" expanded="true" signature="555:573" ph=" @var array ..." />
+            <marker date="1481723399000" expanded="true" signature="600:683" ph=" Start Zombie Server and Mink ..." />
+            <marker date="1481723399000" expanded="true" signature="726:1036" ph="{...}" />
+            <marker date="1481723399000" expanded="true" signature="756:875" ph="..." />
+            <marker date="1481723399000" expanded="true" signature="959:1014" ph="..." />
+            <marker date="1481723399000" expanded="true" signature="960:1003" ph="..." />
+            <marker date="1481723399000" expanded="true" signature="1042:1069" ph=" Reset between tests ..." />
+            <marker date="1481723399000" expanded="true" signature="1097:1135" ph="{...}" />
+            <marker date="1481723399000" expanded="true" signature="1141:1177" ph=" Clean up the browser objects ..." />
+            <marker date="1481723399000" expanded="true" signature="1206:1239" ph="..." />
+            <marker date="1481723399000" expanded="true" signature="1246:1427" ph=" Create a new browser session ..." />
+            <marker date="1481723399000" expanded="true" signature="1468:1667" ph="{...}" />
+            <marker date="1481723399000" expanded="true" signature="1673:1712" ph=" @param $path ..." />
+            <marker date="1481723399000" expanded="true" signature="1743:1855" ph="{...}" />
+            <marker date="1481723399000" expanded="true" signature="1861:1929" ph=" Load a url relative to the current root ..." />
+            <marker date="1481723399000" expanded="true" signature="1961:2019" ph="{...}" />
+            <marker date="1481723399000" expanded="true" signature="2025:2135" ph=" Gets the browser page. ..." />
+            <marker date="1481723399000" expanded="true" signature="2173:2221" ph="{...}" />
+            <marker date="1481723399000" expanded="true" signature="2227:2386" ph=" @param  string $selector The CSS selector ..." />
+            <marker date="1481723399000" expanded="true" signature="2449:2592" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -537,7 +611,41 @@
         <state relative-caret-position="26">
           <caret line="57" column="16" lean-forward="false" selection-start-line="57" selection-start-column="16" selection-end-line="57" selection-end-column="16" />
           <folding>
-            <element signature="e#125#174#0#PHP" expanded="true" />
+            <marker date="1481723399000" expanded="false" signature="9:83" ph=" Created by PhpStorm. ..." />
+            <marker date="1481723399000" expanded="true" signature="129:334" ph="..." />
+            <marker date="1481723399000" expanded="true" signature="339:491" ph=" Class Browser ..." />
+            <marker date="1481723399000" expanded="true" signature="507:2594" ph="{...}" />
+            <marker date="1481723399000" expanded="true" signature="514:531" ph=" @var Mink ..." />
+            <marker date="1481723399000" expanded="true" signature="555:573" ph=" @var array ..." />
+            <marker date="1481723399000" expanded="true" signature="600:683" ph=" Start Zombie Server and Mink ..." />
+            <marker date="1481723399000" expanded="true" signature="726:1036" ph="{...}" />
+            <marker date="1481723399000" expanded="true" signature="756:875" ph="..." />
+            <marker date="1481723399000" expanded="true" signature="959:1014" ph="..." />
+            <marker date="1481723399000" expanded="true" signature="960:1003" ph="..." />
+            <marker date="1481723399000" expanded="true" signature="1042:1069" ph=" Reset between tests ..." />
+            <marker date="1481723399000" expanded="true" signature="1097:1135" ph="{...}" />
+            <marker date="1481723399000" expanded="true" signature="1141:1177" ph=" Clean up the browser objects ..." />
+            <marker date="1481723399000" expanded="true" signature="1206:1239" ph="..." />
+            <marker date="1481723399000" expanded="true" signature="1246:1427" ph=" Create a new browser session ..." />
+            <marker date="1481723399000" expanded="true" signature="1468:1667" ph="{...}" />
+            <marker date="1481723399000" expanded="true" signature="1673:1712" ph=" @param $path ..." />
+            <marker date="1481723399000" expanded="true" signature="1743:1855" ph="{...}" />
+            <marker date="1481723399000" expanded="true" signature="1861:1929" ph=" Load a url relative to the current root ..." />
+            <marker date="1481723399000" expanded="true" signature="1961:2019" ph="{...}" />
+            <marker date="1481723399000" expanded="true" signature="2025:2135" ph=" Gets the browser page. ..." />
+            <marker date="1481723399000" expanded="true" signature="2173:2221" ph="{...}" />
+            <marker date="1481723399000" expanded="true" signature="2227:2386" ph=" @param  string $selector The CSS selector ..." />
+            <marker date="1481723399000" expanded="true" signature="2449:2592" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/example/basic.spec.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="5" lean-forward="false" selection-start-line="0" selection-start-column="5" selection-end-line="0" selection-end-column="5" />
+          <folding>
+            <element signature="e#7#32#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>
