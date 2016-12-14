@@ -15,6 +15,7 @@ use Behat\Mink\Driver\ZombieDriver;
 use Behat\Mink\Element\DocumentElement;
 use Behat\Mink\Mink;
 use Behat\Mink\Session;
+use Kahlan\Suite;
 
 /**
  * Class Browser

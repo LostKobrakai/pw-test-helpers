@@ -21,14 +21,12 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Browser.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/Browser.php">
+      <file leaf-file-name="Kahlan.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Kahlan/Kahlan.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="388">
-              <caret line="128" column="18" lean-forward="false" selection-start-line="128" selection-start-column="18" selection-end-line="128" selection-end-column="18" />
-              <folding>
-                <element signature="e#125#174#0#PHP" expanded="true" />
-              </folding>
+            <state relative-caret-position="260">
+              <caret line="15" column="19" lean-forward="false" selection-start-line="15" selection-start-column="19" selection-end-line="15" selection-end-column="19" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -48,8 +46,11 @@
         <option value="$PROJECT_DIR$/composer.json" />
         <option value="$PROJECT_DIR$/src/Database.php" />
         <option value="$PROJECT_DIR$/src/ElementNotFound.php" />
-        <option value="$PROJECT_DIR$/src/Browser.php" />
         <option value="$PROJECT_DIR$/src/Kahlan/ToContain.php" />
+        <option value="$PROJECT_DIR$/src/Browser.php" />
+        <option value="$PROJECT_DIR$/src/Kahlan/setup.php" />
+        <option value="$PROJECT_DIR$/src/Kahlan/setupBrowser.php" />
+        <option value="$PROJECT_DIR$/src/Kahlan/setupDB.php" />
         <option value="$PROJECT_DIR$/src/Kahlan/Kahlan.php" />
       </list>
     </option>
@@ -195,6 +196,9 @@
     <property name="php.override.implement.member.chooser.php.doc" value="NONE" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/Kahlan" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/spec" />
@@ -273,12 +277,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1481703288729</updated>
-      <workItem from="1481703290211" duration="5589000" />
+      <workItem from="1481703290211" duration="6559000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5589000" />
+    <option name="totallyTimeSpent" value="6559000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="202" y="244" width="1280" height="800" extended-state="0" />
@@ -310,7 +314,9 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <option name="time" value="1" />
+    </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
@@ -683,43 +689,81 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Kahlan/Kahlan.php">
+    <entry file="file://$PROJECT_DIR$/src/Browser.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2106">
-          <caret line="86" column="62" lean-forward="false" selection-start-line="86" selection-start-column="62" selection-end-line="86" selection-end-column="62" />
+        <state relative-caret-position="130">
+          <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
           <folding>
-            <marker date="1481711860000" expanded="false" signature="9:83" ph=" Created by PhpStorm. ..." />
-            <marker date="1481711860000" expanded="true" signature="135:233" ph="..." />
-            <marker date="1481711860000" expanded="true" signature="247:2565" ph="{...}" />
-            <marker date="1481711860000" expanded="true" signature="254:373" ph=" Hook all database / pw startup related tasks into the kahlan pipeline ..." />
-            <marker date="1481711860000" expanded="true" signature="430:1260" ph="{...}" />
-            <marker date="1481711860000" expanded="true" signature="453:918" ph="..." />
-            <marker date="1481711860000" expanded="true" signature="518:917" ph="..." />
-            <marker date="1481711860000" expanded="true" signature="941:1120" ph="..." />
-            <marker date="1481711860000" expanded="true" signature="993:1119" ph="..." />
-            <marker date="1481711860000" expanded="true" signature="1266:1360" ph=" Hook all browser-testing related tasks into the kahlan pipeline ..." />
-            <marker date="1481711860000" expanded="true" signature="1411:2563" ph="{...}" />
-            <marker date="1481711860000" expanded="true" signature="1463:1714" ph="..." />
-            <marker date="1481711860000" expanded="true" signature="1515:1713" ph="..." />
-            <marker date="1481711860000" expanded="true" signature="1737:1964" ph="..." />
-            <marker date="1481711860000" expanded="true" signature="1800:1963" ph="..." />
-            <marker date="1481711860000" expanded="true" signature="1877:1932" ph="..." />
-            <marker date="1481711860000" expanded="true" signature="1904:1931" ph="..." />
-            <marker date="1481711860000" expanded="true" signature="1987:2102" ph="..." />
-            <marker date="1481711860000" expanded="true" signature="2050:2101" ph="..." />
-            <marker date="1481711860000" expanded="true" signature="2125:2290" ph="..." />
-            <marker date="1481711860000" expanded="true" signature="2177:2289" ph="..." />
+            <marker date="1481713825000" expanded="false" signature="9:83" ph=" Created by PhpStorm. ..." />
+            <marker date="1481713825000" expanded="true" signature="129:352" ph="..." />
+            <marker date="1481713825000" expanded="true" signature="357:509" ph=" Class Browser ..." />
+            <marker date="1481713825000" expanded="true" signature="525:2798" ph="{...}" />
+            <marker date="1481713825000" expanded="true" signature="532:549" ph=" @var Mink ..." />
+            <marker date="1481713825000" expanded="true" signature="573:609" ph=" Start Zombie Server and Mink ..." />
+            <marker date="1481713825000" expanded="true" signature="639:865" ph="{...}" />
+            <marker date="1481713825000" expanded="true" signature="669:788" ph="..." />
+            <marker date="1481713825000" expanded="true" signature="871:898" ph=" Reset between tests ..." />
+            <marker date="1481713825000" expanded="true" signature="926:964" ph="{...}" />
+            <marker date="1481713825000" expanded="true" signature="970:1006" ph=" Clean up the browser objects ..." />
+            <marker date="1481713825000" expanded="true" signature="1035:1068" ph="..." />
+            <marker date="1481713825000" expanded="true" signature="1075:1256" ph=" Create a new browser session ..." />
+            <marker date="1481713825000" expanded="true" signature="1305:1545" ph="{...}" />
+            <marker date="1481713825000" expanded="true" signature="1551:1590" ph=" @param $path ..." />
+            <marker date="1481713825000" expanded="true" signature="1631:1742" ph="{...}" />
+            <marker date="1481713825000" expanded="true" signature="1748:1816" ph=" Load a url relative to the current root ..." />
+            <marker date="1481713825000" expanded="true" signature="1855:1919" ph="{...}" />
+            <marker date="1481713825000" expanded="true" signature="1925:2035" ph=" Gets the browser page. ..." />
+            <marker date="1481713825000" expanded="true" signature="2080:2130" ph="{...}" />
+            <marker date="1481713825000" expanded="true" signature="2136:2295" ph=" @param  string $selector The CSS selector ..." />
+            <marker date="1481713825000" expanded="true" signature="2365:2509" ph="{...}" />
+            <marker date="1481713825000" expanded="true" signature="2515:2656" ph=" API shortcut. ..." />
+            <marker date="1481713825000" expanded="true" signature="2710:2796" ph="{...}" />
+            <marker date="1481713825000" expanded="true" signature="2732:2791" ph="..." />
+            <marker date="1481713825000" expanded="true" signature="2758:2780" ph="..." />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Browser.php">
+    <entry file="file://$PROJECT_DIR$/src/Kahlan/setupDB.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="388">
-          <caret line="128" column="18" lean-forward="false" selection-start-line="128" selection-start-column="18" selection-end-line="128" selection-end-column="18" />
+        <state relative-caret-position="130">
+          <caret line="5" column="25" lean-forward="false" selection-start-line="5" selection-start-column="25" selection-end-line="5" selection-end-column="25" />
           <folding>
-            <element signature="e#125#174#0#PHP" expanded="true" />
+            <marker date="1481714126000" expanded="true" signature="55:186" ph="..." />
+            <marker date="1481714126000" expanded="true" signature="191:237" ph=" @var string $path ..." />
+            <marker date="1481714126000" expanded="true" signature="363:815" ph="..." />
+            <marker date="1481714126000" expanded="true" signature="435:814" ph="..." />
+            <marker date="1481714126000" expanded="true" signature="836:1007" ph="..." />
+            <marker date="1481714126000" expanded="true" signature="888:1006" ph="..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Kahlan/setupBrowser.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-236">
+          <caret line="7" column="28" lean-forward="false" selection-start-line="7" selection-start-column="28" selection-end-line="7" selection-end-column="28" />
+          <folding>
+            <marker date="1481714089000" expanded="true" signature="55:163" ph="..." />
+            <marker date="1481714089000" expanded="true" signature="209:450" ph="..." />
+            <marker date="1481714089000" expanded="true" signature="261:449" ph="..." />
+            <marker date="1481714089000" expanded="true" signature="471:686" ph="..." />
+            <marker date="1481714089000" expanded="true" signature="534:685" ph="..." />
+            <marker date="1481714089000" expanded="true" signature="607:658" ph="..." />
+            <marker date="1481714089000" expanded="true" signature="634:657" ph="..." />
+            <marker date="1481714089000" expanded="true" signature="707:816" ph="..." />
+            <marker date="1481714089000" expanded="true" signature="770:815" ph="..." />
+            <marker date="1481714089000" expanded="true" signature="837:996" ph="..." />
+            <marker date="1481714089000" expanded="true" signature="889:995" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Kahlan/Kahlan.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="15" column="19" lean-forward="false" selection-start-line="15" selection-start-column="19" selection-end-line="15" selection-end-column="19" />
+          <folding />
         </state>
       </provider>
     </entry>
