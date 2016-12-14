@@ -15,7 +15,6 @@ use Behat\Mink\Driver\ZombieDriver;
 use Behat\Mink\Element\DocumentElement;
 use Behat\Mink\Mink;
 use Behat\Mink\Session;
-use Kahlan\Suite;
 
 /**
  * Class Browser
@@ -32,9 +31,17 @@ class Browser
 	private $mink;
 
 	/**
-	 * Start Zombie Server and Mink
+	 * @var array
 	 */
-	public function startUp ()
+	private $options;
+
+	/**
+	 * Start Zombie Server and Mink
+	 *
+	 * @param array $options
+	 * @return Mink
+	 */
+	public function startUp ($options = [])
 	{
 		$this->mink = new Mink([
 			'zombie' => new Session(new ZombieDriver(new ZombieServer(
@@ -42,6 +49,11 @@ class Browser
 			)))
 		]);
 		$this->mink->setDefaultSessionName('zombie');
+
+		$this->options = array_merge([
+			'rootUrl' => '',
+			'database' => ''
+		], $options);
 
 		return $this->mink;
 	}
@@ -69,13 +81,13 @@ class Browser
 	 * @param string|null $name
 	 * @return Session
 	 */
-	public static function browser ($name = null)
+	public function window ($name = null)
 	{
-		/** @var Mink $mink */
-		$mink = Suite::current()->mink;
-		$config = Suite::current()->processwire->config;
+		$mink = $this->mink;
 		$session = $mink->getSession($name);
-		$session->setRequestHeader('X-TEST-WITH-DB', $config->dbName);
+
+		if($this->options['database'])
+			$session->setRequestHeader('X-TEST-WITH-DB', $this->options['database']);
 
 		return $session;
 	}
@@ -84,10 +96,12 @@ class Browser
 	 * @param $path
 	 * @return string
 	 */
-	public static function relUrl ($path)
+	public function url ($path)
 	{
-		$config = Suite::current()->processwire->config;
-		return $config->urls->httpRoot . ltrim($path, '/');
+		if($this->options['rootUrl'])
+			return $this->options['rootUrl'] . ltrim($path, '/');
+
+		return $path;
 	}
 
 	/**
@@ -95,9 +109,9 @@ class Browser
 	 *
 	 * @param $path
 	 */
-	public static function visit($path)
+	public function visit($path)
 	{
-		return static::browser()->visit(static::relUrl($path));
+		return $this->window()->visit($this->url($path));
 	}
 
 	/**
@@ -106,9 +120,9 @@ class Browser
 	 * @param  string|null $name The session name.
 	 * @return DocumentElement
 	 */
-	public static function page($name = null)
+	public function page($name = null)
 	{
-		return static::browser($name)->getPage();
+		return $this->window($name)->getPage();
 	}
 
 	/**
@@ -116,24 +130,10 @@ class Browser
 	 * @param  object $parent   The parent `Element` node.
 	 * @return object           Returns a `NodeElement`.
 	 */
-	public static function element($selector = 'body', $parent = null)
+	public function element($selector = 'body', $parent = null)
 	{
-		$parent = $parent ?: static::page();
+		$parent = $parent ?: $this->page();
 		$element = $parent->find('css', $selector);
 		return $element ?: new ElementNotFound($selector);
-	}
-
-	/**
-	 * API shortcut.
-	 *
-	 * @param mixed $actual The actual value.
-	 * @param int   $timeout
-	 * @return kahlan\Matcher A matcher instance.
-	 */
-	public static function wait($actual, $timeout = 0)
-	{
-		return waitsFor(function() use ($actual) {
-			return $actual;
-		}, $timeout);
 	}
 }

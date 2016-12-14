@@ -9,6 +9,8 @@ use ProcessWire\ProcessWire;
 
 $browser = new Browser();
 
+if(!isset($browserSettings)) $browserSettings = [];
+
 Filter::register('testhelper.exclude.namespaces', function ($chain) {
 	$defaults = ['Behat'];
 	$excluded = $this->commandLine()->get('exclude');
@@ -16,8 +18,8 @@ Filter::register('testhelper.exclude.namespaces', function ($chain) {
 	return $chain->next();
 });
 
-Filter::register('testhelper.browser.startup', function ($chain) use($browser) {
-	$this->suite()->mink = $browser->startUp();
+Filter::register('testhelper.browser.startup', function ($chain) use($browser, $browserSettings) {
+	$this->suite()->browser = $browser->startUp($browserSettings);
 	$this->suite()->afterEach(function() use ($browser) {
 		$browser->reset();
 	});
