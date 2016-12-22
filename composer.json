@@ -10,7 +10,7 @@
     ],
     "require": {
         "behat/mink": "^1.7",
-        "behat/mink-zombie-driver": "dev-master"
+        "behat/mink-zombie-driver": "dev-master@dev"
     },
     "autoload": {
         "psr-4": {
